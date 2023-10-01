@@ -2,36 +2,78 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
+    transition: 2s;
+}
+.ex-1-square:hover{
+    background: red;
 }
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s;
+}
+.ex-2-square:active{
+    width: 100%;
 }
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s;
+}
+.ex-3-square:hover{
+border-radius: 100%;
 }
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s;
+}
+.ex-4-square:hover{
+    opacity: 0;
 }
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
+    transition: 2s;
+}
+.ex-5-square:hover{
+height: 120px;
+width: 120px;
+}
+.ex-5-square:active{
+    height: 30px;
+    width: 30px;
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+}
+.ex-6-img:hover{
+    filter: grayscale();
+}
+.ex-8-img {
+    transition: 2s;
+}
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: grayscale(6) sepia(5);
 }
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 2s;
 }
+.ex-9-img:hover{
+filter: grayscale(6) sepia(5);
+border-radius: 20px;
+transform: scale(1.5);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
